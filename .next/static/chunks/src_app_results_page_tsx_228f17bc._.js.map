@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/results/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useVote } from \"@/context/VoteContext\";\n\nconst candidates = [\"Tami Suastuti\", \"Intan Oka Apriliani\", \"Merthi Utami\"];\n\nexport default function ResultsPage() {\n  const { voteCounts } = useVote();\n\n  return (\n    <div className=\"max-w-xl mx-auto p-6\">\n      <h1 className=\"text-3xl font-bold mb-6\">Election Results</h1>\n\n      <ul className=\"list-disc pl-6 space-y-2\">\n        {candidates.map((candidate) => (\n          <li key={candidate} className=\"text-lg\">\n            {candidate}: {voteCounts[candidate] || 0} votes\n          </li>\n        ))}\n      </ul>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAIA,MAAM,aAAa;IAAC;IAAiB;IAAuB;CAAe;AAE5D,SAAS;;IACtB,MAAM,EAAE,UAAU,EAAE,GAAG,CAAA,GAAA,iIAAA,CAAA,UAAO,AAAD;IAE7B,qBACE,6LAAC;QAAI,WAAU;;0BACb,6LAAC;gBAAG,WAAU;0BAA0B;;;;;;0BAExC,6LAAC;gBAAG,WAAU;0BACX,WAAW,GAAG,CAAC,CAAC,0BACf,6LAAC;wBAAmB,WAAU;;4BAC3B;4BAAU;4BAAG,UAAU,CAAC,UAAU,IAAI;4BAAE;;uBADlC;;;;;;;;;;;;;;;;AAOnB;GAhBwB;;QACC,iIAAA,CAAA,UAAO;;;KADR","debugId":null}}]
+}
