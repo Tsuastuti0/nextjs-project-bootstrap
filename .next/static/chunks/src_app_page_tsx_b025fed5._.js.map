@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nexport default function HomePage() {\n  return (\n    <div className=\"flex flex-col items-center justify-center min-h-screen p-6 bg-white text-black\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        className=\"h-24 w-24 mb-6 text-blue-600\"\n        fill=\"none\"\n        viewBox=\"0 0 24 24\"\n        stroke=\"currentColor\"\n        strokeWidth={2}\n      >\n        <path\n          strokeLinecap=\"round\"\n          strokeLinejoin=\"round\"\n          d=\"M12 4v16m8-8H4\"\n        />\n      </svg>\n      <h1 className=\"text-4xl font-bold mb-4\">Selamat Datang</h1>\n      <p className=\"text-lg max-w-md text-center\">\n        Votinglah dengan jujur dan adil\n      </p>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IACtB,qBACE,6LAAC;QAAI,WAAU;;0BACb,6LAAC;gBACC,OAAM;gBACN,WAAU;gBACV,MAAK;gBACL,SAAQ;gBACR,QAAO;gBACP,aAAa;0BAEb,cAAA,6LAAC;oBACC,eAAc;oBACd,gBAAe;oBACf,GAAE;;;;;;;;;;;0BAGN,6LAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,6LAAC;gBAAE,WAAU;0BAA+B;;;;;;;;;;;;AAKlD;KAvBwB","debugId":null}}]
+}
