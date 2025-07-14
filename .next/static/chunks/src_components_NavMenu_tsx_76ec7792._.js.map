@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/components/NavMenu.tsx"],"sourcesContent":["\"use client\";\n\nimport Link from \"next/link\";\n\nexport default function NavMenu() {\n  return (\n    <nav className=\"bg-gray-100 p-4 mb-6\">\n      <ul className=\"flex space-x-6 justify-center font-semibold\">\n        <li>\n          <Link href=\"/vote\" className=\"text-blue-600 hover:underline\">\n            Vote\n          </Link>\n        </li>\n        <li>\n          <Link href=\"/verify\" className=\"text-blue-600 hover:underline\">\n            Verify\n          </Link>\n        </li>\n        <li>\n          <Link href=\"/results\" className=\"text-blue-600 hover:underline\">\n            Results\n          </Link>\n        </li>\n      </ul>\n    </nav>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,qBACE,6LAAC;QAAI,WAAU;kBACb,cAAA,6LAAC;YAAG,WAAU;;8BACZ,6LAAC;8BACC,cAAA,6LAAC,+JAAA,CAAA,UAAI;wBAAC,MAAK;wBAAQ,WAAU;kCAAgC;;;;;;;;;;;8BAI/D,6LAAC;8BACC,cAAA,6LAAC,+JAAA,CAAA,UAAI;wBAAC,MAAK;wBAAU,WAAU;kCAAgC;;;;;;;;;;;8BAIjE,6LAAC;8BACC,cAAA,6LAAC,+JAAA,CAAA,UAAI;wBAAC,MAAK;wBAAW,WAAU;kCAAgC;;;;;;;;;;;;;;;;;;;;;;AAO1E;KAtBwB","debugId":null}}]
+}
